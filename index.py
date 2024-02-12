@@ -41,7 +41,6 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 
 async def dyno(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    # TODO: Get text after command
     await update.message.reply_text(
         generate_response(""),
     )
